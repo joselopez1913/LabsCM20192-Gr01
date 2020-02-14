@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.edu.udea.compumovil.gr01_20192.labscm20192.lab1">
+    package="co.edu.udea.compumovil.gr01_20192.lab1">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ContactInfo"
+            android:label="@string/tittle_info_contact"/>
+        <activity android:name=".MainActivity"
+            android:label="@string/tittle_info_personal"
+            android:screenOrientation="user">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
