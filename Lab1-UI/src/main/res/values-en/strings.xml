@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LabsCM20192</string>
+    <string name="button_change">Change</string>
+    <string name="button_next">Next</string>
+    <string name="date">Date of birth</string>
+    <string name="list_high_school">High School</string>
+    <string name="list_other">Other</string>
+    <string name="list_primary_school">Primary School</string>
+    <string name="list_university">Univerisity</string>
+    <string name="radioButton_man">Man</string>
+    <string name="radioButton_woman">Woman</string>
+    <string name="text_address">Address</string>
+    <string name="text_carrer">Carrer</string>
+    <string name="text_city">City</string>
+    <string name="text_country">Country</string>
+    <string name="text_email">E-mail</string>
+    <string name="text_grade_schol">Grade school</string>
+    <string name="text_last_name">Last name</string>
+    <string name="text_name">Name</string>
+    <string name="text_names">Names</string>
+    <string name="text_phone">Phone</string>
+    <string name="tittle_info_contact">Contact information</string>
+    <string name="tittle_info_personal">Personal information</string>
+    <string name="prueba2">School Grade</string>
+</resources>
