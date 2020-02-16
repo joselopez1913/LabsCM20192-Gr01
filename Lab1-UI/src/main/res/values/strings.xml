@@ -1,3 +1,38 @@
 <resources>
-    <string name="app_name">LabsCM20192-Gr01</string>
+    <string name="app_name">LAB1gr01</string>
+    <string name="tittle_info_personal">Información Personal</string>
+    <string name="tittle_info_contact">Información de Contacto</string>
+
+    <string-array name="School">
+        <item>Primaria</item>
+        <item>Secundaria</item>
+        <item>Universidad</item>
+        <item>Otra</item>
+    </string-array>
+
+    <string name="text_names">Nombres</string>
+    <string name="text_name">Nombre</string>
+    <string name="text_last_name">Apellidos</string>
+    <string name="text_grade_schol">Grado de Escolaridad</string>
+    <string name="text_phone">Teléfono</string>
+    <string name="text_email">Correo</string>
+    <string name="text_country">Pais</string>
+    <string name="text_city">Ciudad</string>
+    <string name="text_address">Dirección</string>
+    <string name="text_carrer">Carrera</string>
+
+    <string name="radioButton_woman">Mujer</string>
+    <string name="radioButton_man">Hombre</string>
+
+    <string name="date">Fecha de nacimiento</string>
+    <string name="button_change">Cambiar</string>
+    <string name="button_next">Siguiente</string>
+
+
+
+    <string name="list_primary_school">Primaria</string>
+    <string name="list_high_school">Secundaria</string>
+    <string name="list_university">Universidad</string>
+    <string name="list_other">Otro</string>
+    <string name="prueba2">Grado de Escolaridad</string>
 </resources>
