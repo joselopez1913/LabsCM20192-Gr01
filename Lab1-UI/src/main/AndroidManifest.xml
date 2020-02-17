@@ -9,12 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".View2"></activity>
-        <activity
-            android:name=".ContactInfo"
-            android:label="@string/tittle_info_contact" />
-        <activity
-            android:name=".MainActivity"
+        <activity android:name=".ContactInfo"
+            android:label="@string/tittle_info_contact"/>
+        <activity android:name=".MainActivity"
             android:label="@string/tittle_info_personal"
             android:screenOrientation="user">
             <intent-filter>
