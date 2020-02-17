@@ -1,9 +1,11 @@
 package co.edu.udea.compumovil.gr01_20192.lab1
 
+import android.annotation.SuppressLint
 import android.app.DatePickerDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.*
 import kotlinx.android.synthetic.main.activity_main.*
@@ -11,14 +13,44 @@ import java.util.*
 
 class MainActivity : AppCompatActivity()  {
 
+    @SuppressLint("WrongViewCast")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         button_next.setOnClickListener {
+
+            val textname = findViewById<EditText>(R.id.text_names)
+            val textlastname = findViewById<EditText>(R.id.text_last_names)
+           // val radiogarder = findViewById<RadioGroup>(R.id.radioGroup2)
+           // val radioGroDate = findViewById<RadioGroup>(R.id.date)
+           // val gradeschools = findViewById<ListView>(R.id.text_grade_schol)
+           // val nextb = findViewById<Button>(R.id.button_next)
+
+
 
             val intent: Intent = Intent(this, ContactInfo::class.java)
             startActivity(intent)
+
+
+            var name =textname.text.toString()
+            var lastname =textlastname.text.toString()
+           // var garder =radiogarder
+           // var date2 = radioGroDate
+           // var grade = gradeschools
+
+            Log.v("", "Información del contacto: ")
+            Log.v("Nombre: ", name.toString())
+            Log.v("Correo: ", lastname.toString())
+            //Log.v( "Pais: ", garder.toString())
+            //Log.v( "ciudad: " , date.toString())
+
+            println("Información del contacto")
+            println("Nombre: " + name)
+            println("Apellido: " + lastname)
+           // println("Nombre: " + garder)
+           // println("Apellido: " + date)
 
         }
 

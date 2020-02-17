@@ -3,6 +3,7 @@ package co.edu.udea.compumovil.gr01_20192.lab1
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 
@@ -37,12 +38,19 @@ class ContactInfo : AppCompatActivity() {
             startActivity(intent)
 
 
-            /**Log.i("", "Información Personal: ")
-            Log.i("Nombre: ", phone.toString())
-            Log.i("Correo: ", email.toString())
-            Log.i( "Pais: ", radioGerder.toString())
-            Log.i( "ciudad: " , radioDatePersona.toString())
-    **/
+            Log.v("", "Información Personal: ")
+            Log.v("Nombre: ", phone.toString())
+            Log.v("Correo: ", email.toString())
+            Log.v( "Pais: ", country.toString())
+            Log.v( "ciudad: " , city.toString())
+
+            println("Información Personal")
+            println("Nombre: " + phone)
+            println("Apellido: " + email)
+            println("Nombre: " + country)
+            println("Apellido: " + address)
+
+
 
         }
 }
